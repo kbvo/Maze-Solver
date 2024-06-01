@@ -1,13 +1,3 @@
-/* 
-mazeio.h
-
-Author: CS 103 Course Staff
-
-Description: Input and output routines for BFS assignment.
-
-You shouldn't change this file.
-*/
-
 #ifndef MAZEIO_H
 #define MAZEIO_H
 
