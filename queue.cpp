@@ -1,7 +1,3 @@
-/*
-queue.cpp
-*/
-
 #include "queue.h"
 
 //Constructor. maxlen must be as large as the total number
@@ -30,8 +26,6 @@ Location Queue::remove_from_front() {
     return frontLoc;
 }
 
-//Is this Queue empty? (did we extract everything added?)
-//This is complete, you don't need to change it.
 bool Queue::is_empty() {
   return head == tail;
 }
