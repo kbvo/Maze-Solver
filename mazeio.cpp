@@ -1,7 +1,3 @@
-/*
-mazeio.cpp
-*/
-
 #include <iostream>
 #include <fstream>
 #include "mazeio.h"
