@@ -7,10 +7,9 @@ maze.cpp
 #include "queue.h"
 using namespace std;
 
-// Prototype for maze_search, which you will fill in below.
+// Prototype for maze_search
 int maze_search(char**, int, int);
 
-// Add other prototypes here for any functions you wish to use
 bool isValid_char(char**, int, int);
 bool isValid_maze(char**, int, int);
 bool isValid_path(char**, int, int);
@@ -71,7 +70,6 @@ int main(int argc, char* argv[]) {
  *
  * If path is found fill it in with '*' characters
  *  but don't overwrite the 'S' and 'F' cells
- * NOTE: don't forget to deallocate memory in here too!
  *************************************************/
 int maze_search(char** maze, int rows, int cols)
 {
