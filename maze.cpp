@@ -1,7 +1,3 @@
-/*
-maze.cpp
-*/
-
 #include <iostream>
 #include "mazeio.h"
 #include "queue.h"
